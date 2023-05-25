@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devchallenges | Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/devchallenges.png" type="image/x-icon">
+
+  <!-- material icons library -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+
+  <!-- my stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <section class="about card">
+
+      <div class="about__name-title-container">
+        <h1 class="name">Lanre Fagbemi</h1>
+        <div class="title">Front-end Developer</div>
+      </div>
+
+      <div class="about__contact">
+
+        <div class="about__contact-detail">
+          <span  aria-hidden="true" class="material-symbols-outlined | about__contact-detail-icon">
+            mail
+          </span>
+
+          <span class="about__contact-detail-content">
+            mail@example.com
+          </span>
+        </div>
+
+        <div class="about__contact-detail">
+          <span  aria-hidden="true" class="material-symbols-outlined | about__contact-detail-icon">
+            call
+          </span>
+
+          <span class="about__contact-detail-content">
+            09000000000
+          </span>
+        </div>
+      </div>
+
+      <p class="about__about-statement paragraph">
+        Self-motivated developer, who is willing to learn and create outstanding UI applications
+      </p>
+    </section>
+
+    <div class="middle">
+      <section class="skills-section card">
+        <h2 class="skills-section__heading sr-only">Skills section</h2>
+
+        <div class="skills-section__skill">
+          <h3 class="skills-section__skill-name">Front End</h3>
+
+          <ul class="skills-section__skill-tools-container">
+            <li class="skills-section__skill-tool">
+              <span class="skills-section__skill-tool-name">Html</span>
+              <progress class="skills-section__skill-tool-level" max="100" value="90"><span class="sr-only">ninety percent</span></progress>
+            </li>
+
+            <li class="skills-section__skill-tool">
+              <span class="skills-section__skill-tool-name">Css</span>
+              <progress class="skills-section__skill-tool-level" max="100" value="70"><span class="sr-only">seventy percent</span></progress>
+            </li>
+
+            <li class="skills-section__skill-tool">
+              <span class="skills-section__skill-tool-name">Javascript</span>
+              <progress class="skills-section__skill-tool-level" max="100" value="10"><span class="sr-only">ten percent</span></progress>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="hobbies-section card">
+        <h2 class="hobbies-section__heading">Hobbies</h2>
+
+        <div class="hobbies-section__hobbies-container grid">
+          <div class="hobbies-section__hobby">
+            <img src="./assets/reading.jpg" alt="" class="hobbies-section__hobby-image">
+
+            <div class="hobbies-section__hobby-name">Reading</div>
+          </div>
+
+          <div class="hobbies-section__hobby">
+            <img src="./assets/music.jpg" alt="" class="hobbies-section__hobby-image">
+
+            <div class="hobbies-section__hobby-name">Listening to music</div>
+          </div>
+
+          <div class="hobbies-section__hobby">
+            <img src="./assets/gaming.jpg" alt="" class="hobbies-section__hobby-image">
+
+            <div class="hobbies-section__hobby-name">gaming</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="bottom">
+
+      <section class="projects-section">
+
+        <header class="projects-section__header card">
+
+          <div class="projects-section__heading-container flex">
+            <h2 class="projects-section__heading">Projects</h2>
+            <span class="projects-section__tools-count" aria-label="number of tools used for project building">(2)</span>
+          </div>
+
+          <div class="projects-section__tools-tab flex" aria-hidden="true">
+            <button class="projects-section__tools-tab-button button">
+              Html & Css
+            </button>
+
+            <button class="projects-section__tools-tab-button button">
+              Javascript
+            </button>
+
+            <button class="projects-section__tools-tab-button button active-tab">
+              All Projects
+            </button>
+          </div>
+        </header>
+
+        <div class="projects-section__projects-category-container">
+
+          <div class="projects-section__projects-category">
+            <h3 class="projects-section__projects-category-name sr-only">
+              Html and Css
+            </h3>
+
+            <div class="projects-section__projects-container visible">
+
+              <div class="projects-section__project">
+                <img src="./assets/404-page.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#html</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#css</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#responsive</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    404 Page
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A simple minimal responsive Error 404 Not Found page built using Html and Css
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project">
+                <img src="./assets/checkout-page.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#html</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#css</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#responsive</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    Checkout Page
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A simple responsive e-commerce Checkout Page built using Html and Css
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project">
+                <img src="./assets/gallery-page.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#html</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#css</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#responsive</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    Gallery Page
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A simple profile photo-Gallery Page for home interiors 
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project-pagination" hidden>
+                <button class="projects-section__project-pagination-previous projects-section__project-pagination-button" title="No more projects" aria-disabled="true">
+                  <span class="material-symbols-outlined" aria-label="previous projects">
+                    navigate_before
+                  </span>
+                </button>
+
+                <button class="projects-section__project-pagination-next projects-section__project-pagination-button">
+                  <span class="material-symbols-outlined" aria-label="next projects">
+                    navigate_next
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <div class="projects-section__projects-container">
+
+              <div class="projects-section__project">
+                <img src="./assets/recipe page.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#html</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#css</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#responsive</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    Recipe Page
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A responsive Recipe Page built using Html and Css
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project">
+                <img src="./assets/teampage.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#html</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#css</span>
+                    <span class="projects-section__project-tag" aria-label="project tag">#responsive</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    Team Page
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A responsive Team Page built using Html and Css 
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project-pagination" hidden>
+                <button class="projects-section__project-pagination-previous projects-section__project-pagination-button">
+                  <span class="material-symbols-outlined" aria-label="previous projects">
+                    navigate_before
+                  </span>
+                </button>
+
+                <button class="projects-section__project-pagination-next projects-section__project-pagination-button" title="No more projects" aria-disabled="true">
+                  <span class="material-symbols-outlined" aria-label="next projects">
+                    navigate_next
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="projects-section__projects-category">
+            <h3 class="projects-section__projects-category-name sr-only">
+              Javascript
+            </h3>
+
+            <div class="projects-section__projects-container visible">
+
+              <div class="projects-section__project">
+                <img src="./assets/edie-homepage.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#Javascript</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    Edie Homepage
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A responsive homepage built using Html and Css and Javascript
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project">
+                <img src="./assets/interior-consultant.webp" alt="" class="projects-section__project-image">
+
+                <div class="projects-section__project-text-container">
+                  <div class="projects-section__project-tags-container">
+                    <span class="projects-section__project-tag" aria-label="project tag">#Javascript</span>
+                  </div>
+
+                  <div class="projects-section__project-name" aria-label="project name">
+                    Interior Consultant Page
+                  </div>
+
+                  <div class="projects-section__project-description" aria-label="project description">
+                    A simple interior consultant homePage built using Html and Css and Javascript
+                  </div>
+
+                  <div class="projects-section__project-buttons-container">
+                    <a href="" class="projects-section__project-button button">Demo</a>
+                    <a href="" class="projects-section__project-button button">Code</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-section__project-pagination" hidden>
+                <button class="projects-section__project-pagination-previous projects-section__project-pagination-button" title="No more projects" aria-disabled="true">
+                  <span class="material-symbols-outlined" aria-label="previous projects">
+                    navigate_before
+                  </span>
+                </button>
+
+                <button class="projects-section__project-pagination-next projects-section__project-pagination-button" title="No more projects" aria-disabled="true">
+                  <span class="material-symbols-outlined" aria-label="next projects">
+                    navigate_next
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <footer class="site-footer">
+      <p class="site-footer__attribution">
+        created by <a href="https://github.com/Lanrefagbemi" class="site-footer__page-author">LanreFagbemi</a> - <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt" class="site-footer__challenge-author">devChallenges.io</a>
+      </p>
+    </footer>
+  </div>
+  
+
+  <!-- <script src="./index.js"></script> -->
+</body>
+</html>
